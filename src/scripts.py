@@ -274,23 +274,20 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
     """
     modified_df = director_titles.copy()
 
+    modified_df[" "] = range(1, len(modified_df) + 1)
+
     # Merge averageRating and numVotes columns
     def format_kilos(value):
         if value < 1000:
-            return str(value)
-        elif value >= 1000:
-            kilos = value // 1000
-            return str(kilos) + " K"
+            return f"{value/1000:.1f} K"
+        elif value >= 1000 and value < 1e6:
+            return f"{value/1000:.0f} K"
+        else:
+            return f"{value/1e6:.1f} M"
 
     modified_df["numVotes"] = modified_df["numVotes"].apply(format_kilos)
-
-    modified_df["averageRating"] = (
-        modified_df["isTopMovie"].map({True: "★ ", False: ""})
-        + modified_df["averageRating"].astype(str)
-        + " ("
-        + modified_df["numVotes"].astype(str)
-        + ")"
-    )
+    modified_df["isTopMovie"] = modified_df["isTopMovie"].map({True: "★", False: ""})
+    # modified_df["averageRating"] = modified_df["averageRating"].astype(str)
 
     # Merge primaryTitle and originalTitle columns
     modified_df["primaryTitle"] = modified_df.apply(
@@ -320,12 +317,23 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
 
     # Reorder the columns
     modified = modified_df[
-        ["startYear", "averageRating", "title", "total_minutes_formatted", "genres"]
+        [
+            " ",
+            "startYear",
+            "isTopMovie",
+            "averageRating",
+            "numVotes",
+            "title",
+            "total_minutes_formatted",
+            "genres",
+        ]
     ].copy()
     modified.rename(
         columns={
             "startYear": "Year",
+            "isTopMovie": "★",
             "averageRating": "Rate",
+            "numVotes": "Votes",
             "title": "Title",
             "total_minutes_formatted": "Duration",
             "genres": "Genres",
@@ -356,9 +364,11 @@ def generate_report(numDirectors, numTitles):
         director_id = row["nconst"]
         director_name = row["director"]
         mean_rating = row["meanAverageRating"]
-        table_of_contents.append(f"[{index+1}. {director_name} ({mean_rating:.2f})](#dir{index})  ")
+        table_of_contents.append(
+            f"[{index+1}. {director_name} ({mean_rating:.2f})](#dir{index})  "
+        )
         # Add a numbered section for the director
-        markdown_content.append(f"## <a name=\"dir{index}\"></a>")
+        markdown_content.append(f'## <a name="dir{index}"></a>')
         markdown_content.append(
             f"## {index+1}. [{director_name}](https://www.imdb.com/name/{director_id})"
         )
@@ -368,7 +378,9 @@ def generate_report(numDirectors, numTitles):
         director_titles = directors_all_movies_df[
             directors_all_movies_df["nconst"] == director_id
         ]
-        director_titles = director_titles.sort_values(by="averageRating", ascending=False).head(numTitles)
+        director_titles = director_titles.sort_values(
+            by="averageRating", ascending=False
+        ).head(numTitles)
 
         # Sort director_titles by startYear
         director_titles = director_titles.sort_values(by="startYear")
@@ -378,7 +390,7 @@ def generate_report(numDirectors, numTitles):
         markdown_content.append(director_titles.to_markdown(index=False))
         markdown_content.append("")
 
-    markdown_content = table_of_contents+markdown_content
+    markdown_content = table_of_contents + markdown_content
 
     # Join the markdown content list into a single string
     markdown_file_content = "\n".join(markdown_content)
@@ -389,7 +401,6 @@ def generate_report(numDirectors, numTitles):
 
 
 temp_folder_path = crete_temp_folder()
-# get_high_voted_movies()
-# get_high_voted_directors()
-generate_report(10, 15)
+
+generate_report(20, 15)
 print("done")
