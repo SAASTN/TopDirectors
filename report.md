@@ -8,6 +8,16 @@
 [8. Mani Ratnam (8.26)](#dir7)  
 [9. Alfred Hitchcock (8.21)](#dir8)  
 [10. Billy Wilder (8.20)](#dir9)  
+[11. Charles Chaplin (8.20)](#dir10)  
+[12. Peter Jackson (8.18)](#dir11)  
+[13. Ingmar Bergman (8.10)](#dir12)  
+[14. Hayao Miyazaki (8.09)](#dir13)  
+[15. David Fincher (8.04)](#dir14)  
+[16. Sidney Lumet (8.01)](#dir15)  
+[17. Yasujirô Ozu (7.99)](#dir16)  
+[18. Fritz Lang (7.98)](#dir17)  
+[19. William Wyler (7.96)](#dir18)  
+[20. Francis Ford Coppola (7.96)](#dir19)  
 ## <a name="dir0"></a>
 ## 1. [Ertem Egilmez](https://www.imdb.com/name/nm0251027)
 
@@ -112,7 +122,7 @@
 
 |     |   Year | ★   |   Rate | Votes   | Title                                                                                    | Duration   | Genres                      |
 |----:|-------:|:----|-------:|:--------|:-----------------------------------------------------------------------------------------|:-----------|:----------------------------|
-|   1 |   1974 |     |    7.6 | 4 K     | [Italianamerican](https://www.imdb.com/title/tt0071680)                                  | 0h 49m     | Documentary                 |
+|   1 |   1974 |     |    7.6 | 4 K     | [Italianamerican](https://www.imdb.com/title/tt0071680)                                  | 49m        | Documentary                 |
 |   2 |   1976 | ★   |    8.2 | 904 K   | [Taxi Driver](https://www.imdb.com/title/tt0075314)                                      | 1h 54m     | Crime,Drama                 |
 |   3 |   1978 | ★   |    8.1 | 20 K    | [The Last Waltz](https://www.imdb.com/title/tt0077838)                                   | 1h 57m     | Biography,Documentary,Music |
 |   4 |   1980 |     |    8.1 | 375 K   | [Raging Bull](https://www.imdb.com/title/tt0081398)                                      | 2h 9m      | Biography,Drama,Sport       |
@@ -208,3 +218,208 @@
 |  13 |   1961 | ★   |    7.9 | 23 K    | [One, Two, Three](https://www.imdb.com/title/tt0055256)             | 1h 44m     | Comedy                |
 |  14 |   1963 |     |    7.3 | 21 K    | [Irma la Douce](https://www.imdb.com/title/tt0057187)               | 2h 27m     | Comedy,Romance        |
 |  15 |   1974 |     |    7.3 | 15 K    | [The Front Page](https://www.imdb.com/title/tt0071524)              | 1h 45m     | Comedy,Drama,Romance  |
+
+## <a name="dir10"></a>
+## 11. [Charles Chaplin](https://www.imdb.com/name/nm0000122)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                     | Duration   | Genres                 |
+|----:|-------:|:----|-------:|:--------|:--------------------------------------------------------------------------|:-----------|:-----------------------|
+|   1 |   1921 | ★   |    8.2 | 133 K   | [The Kid](https://www.imdb.com/title/tt0012349)                           | 1h 8m      | Comedy,Drama,Family    |
+|   2 |   1923 |     |    7.2 | 6 K     | [The Pilgrim](https://www.imdb.com/title/tt0014358)                       | 47m        | Comedy,Western         |
+|   3 |   1923 |     |    6.9 | 6 K     | [A Woman of Paris: A Drama of Fate](https://www.imdb.com/title/tt0014624) | 1h 22m     | Drama,Romance          |
+|   4 |   1925 | ★   |    8.1 | 117 K   | [The Gold Rush](https://www.imdb.com/title/tt0015864)                     | 1h 35m     | Adventure,Comedy,Drama |
+|   5 |   1928 | ★   |    8.1 | 36 K    | [The Circus](https://www.imdb.com/title/tt0018773)                        | 1h 12m     | Comedy,Family,Romance  |
+|   6 |   1931 | ★   |    8.5 | 194 K   | [City Lights](https://www.imdb.com/title/tt0021749)                       | 1h 27m     | Comedy,Drama,Romance   |
+|   7 |   1936 | ★   |    8.5 | 256 K   | [Modern Times](https://www.imdb.com/title/tt0027977)                      | 1h 27m     | Comedy,Drama,Romance   |
+|   8 |   1938 |     |    7   | 0.2 K   | [Charlie Chaplin Carnival](https://www.imdb.com/title/tt0284686)          | 1h 40m     | Comedy,Romance         |
+|   9 |   1940 | ★   |    8.4 | 235 K   | [The Great Dictator](https://www.imdb.com/title/tt0032553)                | 2h 5m      | Comedy,Drama,War       |
+|  10 |   1941 |     |    7.4 | 0.2 K   | [The Chaplin Cavalcade](https://www.imdb.com/title/tt0284687)             | 1h 15m     | Comedy                 |
+|  11 |   1941 |     |    7.4 | 0.4 K   | [The Charlie Chaplin Festival](https://www.imdb.com/title/tt0284688)      | 1h 36m     | Comedy                 |
+|  12 |   1947 | ★   |    7.8 | 19 K    | [Monsieur Verdoux](https://www.imdb.com/title/tt0039631)                  | 2h 4m      | Comedy,Crime,Drama     |
+|  13 |   1952 | ★   |    8   | 22 K    | [Limelight](https://www.imdb.com/title/tt0044837)                         | 2h 17m     | Drama,Music,Romance    |
+|  14 |   1957 |     |    7   | 9 K     | [A King in New York](https://www.imdb.com/title/tt0050598)                | 1h 50m     | Comedy,Drama           |
+|  15 |   1959 |     |    7.7 | 2 K     | [The Chaplin Revue](https://www.imdb.com/title/tt0050243)                 | 2h 8m      | Comedy                 |
+
+## <a name="dir11"></a>
+## 12. [Peter Jackson](https://www.imdb.com/name/nm0001392)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                                     | Duration   | Genres                   |
+|----:|-------:|:----|-------:|:--------|:------------------------------------------------------------------------------------------|:-----------|:-------------------------|
+|   1 |   1987 |     |    6.5 | 49 K    | [Bad Taste](https://www.imdb.com/title/tt0092610)                                         | 1h 31m     | Comedy,Horror,Sci-Fi     |
+|   2 |   1989 |     |    6.6 | 22 K    | [Meet the Feebles](https://www.imdb.com/title/tt0097858)                                  | 1h 37m     | Comedy,Music,Musical     |
+|   3 |   1992 | ★   |    7.5 | 102 K   | [Dead Alive<br>(Braindead)](https://www.imdb.com/title/tt0103873)                         | 1h 44m     | Comedy,Fantasy,Horror    |
+|   4 |   1994 |     |    7.3 | 67 K    | [Heavenly Creatures](https://www.imdb.com/title/tt0110005)                                | 1h 39m     | Biography,Crime,Drama    |
+|   5 |   1996 |     |    7.1 | 95 K    | [The Frighteners](https://www.imdb.com/title/tt0116365)                                   | 1h 50m     | Comedy,Fantasy,Horror    |
+|   6 |   2001 | ★   |    8.9 | 2.0 M   | [The Lord of the Rings: The Fellowship of the Ring](https://www.imdb.com/title/tt0120737) | 2h 58m     | Action,Adventure,Drama   |
+|   7 |   2002 | ★   |    8.8 | 1.8 M   | [The Lord of the Rings: The Two Towers](https://www.imdb.com/title/tt0167261)             | 2h 59m     | Action,Adventure,Drama   |
+|   8 |   2003 | ★   |    9   | 1.9 M   | [The Lord of the Rings: The Return of the King](https://www.imdb.com/title/tt0167260)     | 3h 21m     | Action,Adventure,Drama   |
+|   9 |   2005 |     |    7.2 | 442 K   | [King Kong](https://www.imdb.com/title/tt0360717)                                         | 3h 7m      | Action,Adventure,Romance |
+|  10 |   2009 |     |    6.6 | 178 K   | [The Lovely Bones](https://www.imdb.com/title/tt0380510)                                  | 2h 15m     | Drama,Fantasy,Thriller   |
+|  11 |   2012 | ★   |    7.8 | 863 K   | [The Hobbit: An Unexpected Journey](https://www.imdb.com/title/tt0903624)                 | 2h 49m     | Adventure,Fantasy        |
+|  12 |   2013 | ★   |    7.8 | 697 K   | [The Hobbit: The Desolation of Smaug](https://www.imdb.com/title/tt1170358)               | 2h 41m     | Adventure,Drama,Fantasy  |
+|  13 |   2014 | ★   |    7.4 | 564 K   | [The Hobbit: The Battle of the Five Armies](https://www.imdb.com/title/tt2310332)         | 2h 24m     | Adventure,Fantasy        |
+|  14 |   2018 | ★   |    8.2 | 38 K    | [They Shall Not Grow Old](https://www.imdb.com/title/tt7905466)                           | 1h 39m     | Documentary,History,War  |
+|  15 |   2022 |     |    9   | 1 K     | [The Beatles: Get Back - The Rooftop Concert](https://www.imdb.com/title/tt16899584)      | 1h 5m      | Documentary,Music        |
+
+## <a name="dir12"></a>
+## 13. [Ingmar Bergman](https://www.imdb.com/name/nm0000005)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                                       | Duration   | Genres         |
+|----:|-------:|:----|-------:|:--------|:--------------------------------------------------------------------------------------------|:-----------|:---------------|
+|   1 |   1955 |     |    7.7 | 15 K    | [Smiles of a Summer Night<br>(Sommarnattens leende)](https://www.imdb.com/title/tt0048641)  | 1h 49m     | Comedy,Romance |
+|   2 |   1957 | ★   |    8.1 | 113 K   | [Wild Strawberries<br>(Smultronstället)](https://www.imdb.com/title/tt0050986)              | 1h 31m     | Drama,Romance  |
+|   3 |   1957 | ★   |    8.1 | 196 K   | [The Seventh Seal<br>(Det sjunde inseglet)](https://www.imdb.com/title/tt0050976)           | 1h 36m     | Drama,Fantasy  |
+|   4 |   1958 |     |    7.6 | 11 K    | [The Magician<br>(Ansiktet)](https://www.imdb.com/title/tt0051365)                          | 1h 41m     | Comedy,Drama   |
+|   5 |   1960 | ★   |    8   | 31 K    | [The Virgin Spring<br>(Jungfrukällan)](https://www.imdb.com/title/tt0053976)                | 1h 29m     | Drama          |
+|   6 |   1961 |     |    7.9 | 27 K    | [Through a Glass Darkly<br>(Såsom i en spegel)](https://www.imdb.com/title/tt0055499)       | 1h 30m     | Drama          |
+|   7 |   1963 | ★   |    8   | 27 K    | [Winter Light<br>(Nattvardsgästerna)](https://www.imdb.com/title/tt0057358)                 | 1h 21m     | Drama          |
+|   8 |   1963 |     |    7.8 | 21 K    | [The Silence<br>(Tystnaden)](https://www.imdb.com/title/tt0057611)                          | 1h 36m     | Drama          |
+|   9 |   1966 | ★   |    8.1 | 129 K   | [Persona](https://www.imdb.com/title/tt0060827)                                             | 1h 25m     | Drama,Thriller |
+|  10 |   1968 |     |    8   | 15 K    | [Shame<br>(Skammen)](https://www.imdb.com/title/tt0063611)                                  | 1h 43m     | Drama          |
+|  11 |   1969 |     |    7.6 | 10 K    | [The Passion of Anna<br>(En passion)](https://www.imdb.com/title/tt0064793)                 | 1h 41m     | Drama          |
+|  12 |   1972 |     |    8   | 36 K    | [Cries & Whispers<br>(Viskningar och rop)](https://www.imdb.com/title/tt0069467)            | 1h 31m     | Drama          |
+|  13 |   1974 | ★   |    8.3 | 8 K     | [Scenes from a Marriage<br>(Scener ur ett äktenskap)](https://www.imdb.com/title/tt6725014) | 2h 49m     | Drama          |
+|  14 |   1978 | ★   |    8.1 | 37 K    | [Autumn Sonata<br>(Höstsonaten)](https://www.imdb.com/title/tt0077711)                      | 1h 39m     | Drama,Music    |
+|  15 |   1982 | ★   |    8.1 | 67 K    | [Fanny and Alexander<br>(Fanny och Alexander)](https://www.imdb.com/title/tt0083922)        | 3h 8m      | Drama          |
+
+## <a name="dir13"></a>
+## 14. [Hayao Miyazaki](https://www.imdb.com/name/nm0594503)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                                                                                                                | Duration   | Genres                     |
+|----:|-------:|:----|-------:|:--------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:---------------------------|
+|   1 |   1979 |     |    7.6 | 33 K    | [Lupin III: The Castle of Cagliostro<br>(Rupan sansei: Kariosutoro no shiro)](https://www.imdb.com/title/tt0079833)                                                  | 1h 40m     | Action,Adventure,Animation |
+|   2 |   1984 |     |    8.3 | 0.8 K   | [Conan the Future Boy: The Big Giant Robot's Resurrection<br>(Mirai shônen Konan Tokubetsu-hen: Kyodaiki Giganto no Fukkatsu)](https://www.imdb.com/title/tt0462699) | 49m        | Adventure,Animation,Family |
+|   3 |   1984 | ★   |    8   | 180 K   | [Nausicaä of the Valley of the Wind<br>(Kaze no tani no Naushika)](https://www.imdb.com/title/tt0087544)                                                             | 1h 57m     | Adventure,Animation,Sci-Fi |
+|   4 |   1986 | ★   |    8   | 179 K   | [Castle in the Sky<br>(Tenkuu no Shiro Laputa)](https://www.imdb.com/title/tt0092067)                                                                                | 2h 5m      | Adventure,Animation,Family |
+|   5 |   1988 | ★   |    8.1 | 371 K   | [My Neighbor Totoro<br>(Tonari no Totoro)](https://www.imdb.com/title/tt0096283)                                                                                     | 1h 26m     | Animation,Comedy,Family    |
+|   6 |   1989 | ★   |    7.8 | 161 K   | [Kiki's Delivery Service<br>(Majo no takkyûbin)](https://www.imdb.com/title/tt0097814)                                                                               | 1h 43m     | Animation,Family,Fantasy   |
+|   7 |   1992 |     |    7.7 | 100 K   | [Porco Rosso<br>(Kurenai no buta)](https://www.imdb.com/title/tt0104652)                                                                                             | 1h 34m     | Adventure,Animation,Comedy |
+|   8 |   1997 | ★   |    8.3 | 425 K   | [Princess Mononoke<br>(Mononoke-hime)](https://www.imdb.com/title/tt0119698)                                                                                         | 2h 14m     | Action,Adventure,Animation |
+|   9 |   2001 | ★   |    8.6 | 831 K   | [Spirited Away<br>(Sen to Chihiro no kamikakushi)](https://www.imdb.com/title/tt0245429)                                                                             | 2h 5m      | Adventure,Animation,Family |
+|  10 |   2004 | ★   |    8.2 | 437 K   | [Howl's Moving Castle<br>(Hauru no ugoku shiro)](https://www.imdb.com/title/tt0347149)                                                                               | 1h 59m     | Adventure,Animation,Family |
+|  11 |   2008 |     |    7.6 | 159 K   | [Ponyo<br>(Gake no ue no Ponyo)](https://www.imdb.com/title/tt0876563)                                                                                               | 1h 41m     | Adventure,Animation,Comedy |
+|  12 |   2013 | ★   |    7.7 | 96 K    | [The Wind Rises<br>(Kaze tachinu)](https://www.imdb.com/title/tt2013293)                                                                                             | 2h 6m      | Animation,Biography,Drama  |
+|  13 |   2023 |     |    7.6 | 33 K    | [The Boy and the Heron<br>(Kimitachi wa dô ikiru ka)](https://www.imdb.com/title/tt6587046)                                                                          | 2h 4m      | Adventure,Animation,Drama  |
+
+## <a name="dir14"></a>
+## 15. [David Fincher](https://www.imdb.com/name/nm0000399)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                       | Duration   | Genres                 |
+|----:|-------:|:----|-------:|:--------|:----------------------------------------------------------------------------|:-----------|:-----------------------|
+|   1 |   1992 |     |    6.4 | 316 K   | [Alien³](https://www.imdb.com/title/tt0103644)                              | 1h 54m     | Action,Horror,Sci-Fi   |
+|   2 |   1995 | ★   |    8.6 | 1.8 M   | [Se7en](https://www.imdb.com/title/tt0114369)                               | 2h 7m      | Crime,Drama,Mystery    |
+|   3 |   1997 | ★   |    7.7 | 423 K   | [The Game](https://www.imdb.com/title/tt0119174)                            | 2h 9m      | Drama,Mystery,Thriller |
+|   4 |   1999 | ★   |    8.8 | 2.3 M   | [Fight Club](https://www.imdb.com/title/tt0137523)                          | 2h 19m     | Drama                  |
+|   5 |   2002 |     |    6.8 | 294 K   | [Panic Room](https://www.imdb.com/title/tt0258000)                          | 1h 52m     | Crime,Drama,Thriller   |
+|   6 |   2007 | ★   |    7.7 | 587 K   | [Zodiac](https://www.imdb.com/title/tt0443706)                              | 2h 37m     | Crime,Drama,Mystery    |
+|   7 |   2008 | ★   |    7.8 | 687 K   | [The Curious Case of Benjamin Button](https://www.imdb.com/title/tt0421715) | 2h 46m     | Drama,Fantasy,Romance  |
+|   8 |   2010 | ★   |    7.8 | 749 K   | [The Social Network](https://www.imdb.com/title/tt1285016)                  | 2h 0m      | Biography,Drama        |
+|   9 |   2011 | ★   |    7.8 | 489 K   | [The Girl with the Dragon Tattoo](https://www.imdb.com/title/tt1568346)     | 2h 38m     | Crime,Drama,Mystery    |
+|  10 |   2014 | ★   |    8.1 | 1.0 M   | [Gone Girl](https://www.imdb.com/title/tt2267998)                           | 2h 29m     | Drama,Mystery,Thriller |
+|  11 |   2020 |     |    6.8 | 82 K    | [Mank](https://www.imdb.com/title/tt10618286)                               | 2h 11m     | Biography,Comedy,Drama |
+|  12 |   2023 |     |    6.8 | 160 K   | [The Killer](https://www.imdb.com/title/tt1136617)                          | 1h 58m     | Action,Adventure,Crime |
+
+## <a name="dir15"></a>
+## 16. [Sidney Lumet](https://www.imdb.com/name/nm0001486)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                      | Duration   | Genres                |
+|----:|-------:|:----|-------:|:--------|:---------------------------------------------------------------------------|:-----------|:----------------------|
+|   1 |   1957 | ★   |    9   | 849 K   | [12 Angry Men](https://www.imdb.com/title/tt0050083)                       | 1h 36m     | Crime,Drama           |
+|   2 |   1960 |     |    7.1 | 7 K     | [The Fugitive Kind](https://www.imdb.com/title/tt0052832)                  | 1h 59m     | Drama,Romance         |
+|   3 |   1962 |     |    7.5 | 6 K     | [Long Day's Journey Into Night](https://www.imdb.com/title/tt0056196)      | 2h 54m     | Drama                 |
+|   4 |   1964 | ★   |    8   | 24 K    | [Fail Safe](https://www.imdb.com/title/tt0058083)                          | 1h 52m     | Drama,Thriller        |
+|   5 |   1964 | ★   |    7.7 | 11 K    | [The Pawnbroker](https://www.imdb.com/title/tt0059575)                     | 1h 56m     | Drama                 |
+|   6 |   1965 | ★   |    7.9 | 15 K    | [The Hill](https://www.imdb.com/title/tt0059274)                           | 2h 3m      | Drama,War             |
+|   7 |   1973 | ★   |    7.7 | 133 K   | [Serpico](https://www.imdb.com/title/tt0070666)                            | 2h 10m     | Biography,Crime,Drama |
+|   8 |   1974 |     |    7.2 | 68 K    | [Murder on the Orient Express](https://www.imdb.com/title/tt0071877)       | 2h 8m      | Crime,Drama,Mystery   |
+|   9 |   1975 | ★   |    8   | 271 K   | [Dog Day Afternoon](https://www.imdb.com/title/tt0072890)                  | 2h 5m      | Biography,Crime,Drama |
+|  10 |   1976 | ★   |    8.1 | 168 K   | [Network](https://www.imdb.com/title/tt0074958)                            | 2h 1m      | Drama                 |
+|  11 |   1977 |     |    7.1 | 9 K     | [Equus](https://www.imdb.com/title/tt0075995)                              | 2h 17m     | Drama,Mystery         |
+|  12 |   1981 |     |    7.4 | 9 K     | [Prince of the City](https://www.imdb.com/title/tt0082945)                 | 2h 47m     | Crime,Drama           |
+|  13 |   1982 | ★   |    7.7 | 45 K    | [The Verdict](https://www.imdb.com/title/tt0084855)                        | 2h 9m      | Drama                 |
+|  14 |   1988 |     |    7.6 | 18 K    | [Running on Empty](https://www.imdb.com/title/tt0096018)                   | 1h 56m     | Crime,Drama,Music     |
+|  15 |   2007 |     |    7.3 | 110 K   | [Before the Devil Knows You're Dead](https://www.imdb.com/title/tt0292963) | 1h 57m     | Crime,Drama,Thriller  |
+
+## <a name="dir16"></a>
+## 17. [Yasujirô Ozu](https://www.imdb.com/name/nm0654868)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                                                       | Duration   | Genres              |
+|----:|-------:|:----|-------:|:--------|:------------------------------------------------------------------------------------------------------------|:-----------|:--------------------|
+|   1 |   1932 | ★   |    7.9 | 6 K     | [I Was Born, But...<br>(Otona no miru ehon - Umarete wa mita keredo)](https://www.imdb.com/title/tt0023634) | 1h 30m     | Comedy,Drama        |
+|   2 |   1934 |     |    7.7 | 3 K     | [A Story of Floating Weeds<br>(Ukikusa monogatari)](https://www.imdb.com/title/tt0025929)                   | 1h 26m     | Drama               |
+|   3 |   1947 |     |    7.7 | 2 K     | [Record of a Tenement Gentleman<br>(Nagaya shinshiroku)](https://www.imdb.com/title/tt0039651)              | 1h 12m     | Drama               |
+|   4 |   1949 | ★   |    8.2 | 19 K    | [Late Spring<br>(Banshun)](https://www.imdb.com/title/tt0041154)                                            | 1h 48m     | Drama               |
+|   5 |   1951 | ★   |    8.1 | 9 K     | [Early Summer<br>(Bakushû)](https://www.imdb.com/title/tt0043313)                                           | 2h 5m      | Drama,Romance       |
+|   6 |   1952 |     |    7.7 | 4 K     | [The Flavor of Green Tea Over Rice<br>(Ochazuke no aji)](https://www.imdb.com/title/tt0044982)              | 1h 56m     | Drama               |
+|   7 |   1953 | ★   |    8.1 | 67 K    | [Tokyo Story<br>(Tôkyô monogatari)](https://www.imdb.com/title/tt0046438)                                   | 2h 16m     | Drama               |
+|   8 |   1956 |     |    7.8 | 4 K     | [Early Spring<br>(Sôshun)](https://www.imdb.com/title/tt0049784)                                            | 2h 25m     | Drama               |
+|   9 |   1957 |     |    8.1 | 5 K     | [Tokyo Twilight<br>(Tôkyô boshoku)](https://www.imdb.com/title/tt0051093)                                   | 2h 20m     | Drama               |
+|  10 |   1958 |     |    7.8 | 5 K     | [Equinox Flower<br>(Higanbana)](https://www.imdb.com/title/tt0051720)                                       | 1h 58m     | Comedy,Drama        |
+|  11 |   1959 | ★   |    7.9 | 9 K     | [Floating Weeds<br>(Ukigusa)](https://www.imdb.com/title/tt0053390)                                         | 1h 59m     | Drama               |
+|  12 |   1959 | ★   |    7.8 | 11 K    | [Good Morning<br>(Ohayô)](https://www.imdb.com/title/tt0053134)                                             | 1h 34m     | Comedy,Drama,Family |
+|  13 |   1960 | ★   |    7.9 | 6 K     | [Late Autumn<br>(Akibiyori)](https://www.imdb.com/title/tt0053579)                                          | 2h 8m      | Comedy,Drama        |
+|  14 |   1961 |     |    7.7 | 4 K     | [The End of Summer<br>(Kohayagawa-ke no aki)](https://www.imdb.com/title/tt0055052)                         | 1h 43m     | Drama               |
+|  15 |   1962 | ★   |    8   | 10 K    | [An Autumn Afternoon<br>(Sanma no aji)](https://www.imdb.com/title/tt0056444)                               | 1h 53m     | Drama               |
+
+## <a name="dir17"></a>
+## 18. [Fritz Lang](https://www.imdb.com/name/nm0000485)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                                                             | Duration   | Genres                   |
+|----:|-------:|:----|-------:|:--------|:------------------------------------------------------------------------------------------------------------------|:-----------|:-------------------------|
+|   1 |   1921 |     |    7.6 | 7 K     | [Destiny<br>(Der müde Tod)](https://www.imdb.com/title/tt0012494)                                                 | 1h 37m     | Drama,Fantasy,Horror     |
+|   2 |   1922 | ★   |    7.8 | 9 K     | [Dr. Mabuse, the Gambler<br>(Dr. Mabuse, der Spieler)](https://www.imdb.com/title/tt0013086)                      | 4h 2m      | Crime,Mystery,Thriller   |
+|   3 |   1924 | ★   |    8.1 | 6 K     | [Die Nibelungen: Siegfried](https://www.imdb.com/title/tt0015175)                                                 | 2h 23m     | Adventure,Drama,Fantasy  |
+|   4 |   1924 |     |    7.9 | 5 K     | [Die Nibelungen: Kriemhild's Revenge<br>(Die Nibelungen: Kriemhilds Rache)](https://www.imdb.com/title/tt0015174) | 2h 9m      | Adventure,Drama,Fantasy  |
+|   5 |   1927 | ★   |    8.3 | 183 K   | [Metropolis](https://www.imdb.com/title/tt0017136)                                                                | 2h 33m     | Drama,Sci-Fi             |
+|   6 |   1928 |     |    7.5 | 4 K     | [Spies<br>(Spione)](https://www.imdb.com/title/tt0019415)                                                         | 2h 30m     | Romance,Thriller         |
+|   7 |   1929 |     |    7.2 | 4 K     | [Woman in the Moon<br>(Frau im Mond)](https://www.imdb.com/title/tt0019901)                                       | 2h 36m     | Adventure,Comedy,Drama   |
+|   8 |   1931 | ★   |    8.3 | 166 K   | [M<br>(M - Eine Stadt sucht einen Mörder)](https://www.imdb.com/title/tt0022100)                                  | 1h 57m     | Crime,Mystery,Thriller   |
+|   9 |   1933 | ★   |    7.9 | 13 K    | [The Testament of Dr. Mabuse<br>(Das Testament des Dr. Mabuse)](https://www.imdb.com/title/tt0023563)             | 2h 2m      | Crime,Mystery,Thriller   |
+|  10 |   1936 | ★   |    7.8 | 14 K    | [Fury](https://www.imdb.com/title/tt0027652)                                                                      | 1h 32m     | Crime,Drama,Film-Noir    |
+|  11 |   1937 |     |    7.2 | 8 K     | [You Only Live Once](https://www.imdb.com/title/tt0029808)                                                        | 1h 26m     | Crime,Drama,Film-Noir    |
+|  12 |   1943 |     |    7.4 | 6 K     | [Hangmen Also Die!](https://www.imdb.com/title/tt0035966)                                                         | 2h 14m     | Drama,Film-Noir,Thriller |
+|  13 |   1944 |     |    7.6 | 18 K    | [The Woman in the Window](https://www.imdb.com/title/tt0037469)                                                   | 1h 47m     | Crime,Drama,Film-Noir    |
+|  14 |   1945 | ★   |    7.7 | 19 K    | [Scarlet Street](https://www.imdb.com/title/tt0038057)                                                            | 1h 42m     | Crime,Drama,Film-Noir    |
+|  15 |   1953 | ★   |    7.9 | 29 K    | [The Big Heat](https://www.imdb.com/title/tt0045555)                                                              | 1h 29m     | Crime,Film-Noir,Thriller |
+
+## <a name="dir18"></a>
+## 19. [William Wyler](https://www.imdb.com/name/nm0943758)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                               | Duration   | Genres                |
+|----:|-------:|:----|-------:|:--------|:--------------------------------------------------------------------|:-----------|:----------------------|
+|   1 |   1933 |     |    7.5 | 1 K     | [Counsellor at Law](https://www.imdb.com/title/tt0023911)           | 1h 22m     | Comedy,Drama          |
+|   2 |   1935 |     |    7.5 | 2 K     | [The Good Fairy](https://www.imdb.com/title/tt0026424)              | 1h 38m     | Comedy,Romance        |
+|   3 |   1936 | ★   |    7.8 | 10 K    | [Dodsworth](https://www.imdb.com/title/tt0027532)                   | 1h 41m     | Drama,Romance         |
+|   4 |   1939 |     |    7.5 | 19 K    | [Wuthering Heights](https://www.imdb.com/title/tt0032145)           | 1h 44m     | Drama,Romance         |
+|   5 |   1940 |     |    7.5 | 14 K    | [The Letter](https://www.imdb.com/title/tt0032701)                  | 1h 35m     | Crime,Drama,Film-Noir |
+|   6 |   1941 | ★   |    7.9 | 13 K    | [The Little Foxes](https://www.imdb.com/title/tt0033836)            | 1h 56m     | Drama,Romance         |
+|   7 |   1942 |     |    7.6 | 19 K    | [Mrs. Miniver](https://www.imdb.com/title/tt0035093)                | 2h 14m     | Drama,Romance,War     |
+|   8 |   1946 | ★   |    8.1 | 69 K    | [The Best Years of Our Lives](https://www.imdb.com/title/tt0036868) | 2h 50m     | Drama,Romance,War     |
+|   9 |   1949 | ★   |    8.1 | 17 K    | [The Heiress](https://www.imdb.com/title/tt0041452)                 | 1h 55m     | Drama,Romance         |
+|  10 |   1951 |     |    7.5 | 9 K     | [Detective Story](https://www.imdb.com/title/tt0043465)             | 1h 43m     | Crime,Drama,Film-Noir |
+|  11 |   1953 | ★   |    8   | 146 K   | [Roman Holiday](https://www.imdb.com/title/tt0046250)               | 1h 58m     | Comedy,Romance        |
+|  12 |   1958 | ★   |    7.9 | 21 K    | [The Big Country](https://www.imdb.com/title/tt0051411)             | 2h 46m     | Drama,Romance,Western |
+|  13 |   1959 | ★   |    8.1 | 251 K   | [Ben-Hur](https://www.imdb.com/title/tt0052618)                     | 3h 32m     | Adventure,Drama       |
+|  14 |   1961 | ★   |    7.8 | 18 K    | [The Children's Hour](https://www.imdb.com/title/tt0054743)         | 1h 48m     | Drama,Romance         |
+|  15 |   1965 |     |    7.5 | 12 K    | [The Collector](https://www.imdb.com/title/tt0059043)               | 1h 59m     | Drama,Thriller        |
+
+## <a name="dir19"></a>
+## 20. [Francis Ford Coppola](https://www.imdb.com/name/nm0000338)
+
+|     |   Year | ★   |   Rate | Votes   | Title                                                                 | Duration   | Genres                 |
+|----:|-------:|:----|-------:|:--------|:----------------------------------------------------------------------|:-----------|:-----------------------|
+|   1 |   1969 |     |    6.8 | 4 K     | [The Rain People](https://www.imdb.com/title/tt0064873)               | 1h 41m     | Drama                  |
+|   2 |   1972 | ★   |    9.2 | 2.0 M   | [The Godfather](https://www.imdb.com/title/tt0068646)                 | 2h 55m     | Crime,Drama            |
+|   3 |   1974 | ★   |    9   | 1.3 M   | [The Godfather Part II](https://www.imdb.com/title/tt0071562)         | 3h 22m     | Crime,Drama            |
+|   4 |   1974 | ★   |    7.8 | 120 K   | [The Conversation](https://www.imdb.com/title/tt0071360)              | 1h 53m     | Drama,Mystery,Thriller |
+|   5 |   1979 | ★   |    8.4 | 701 K   | [Apocalypse Now](https://www.imdb.com/title/tt0078788)                | 2h 27m     | Drama,Mystery,War      |
+|   6 |   1981 |     |    6.5 | 7 K     | [One from the Heart](https://www.imdb.com/title/tt0084445)            | 1h 47m     | Drama,Musical,Romance  |
+|   7 |   1983 | ★   |    7.1 | 37 K    | [Rumble Fish](https://www.imdb.com/title/tt0086216)                   | 1h 34m     | Crime,Drama,Romance    |
+|   8 |   1983 |     |    7   | 96 K    | [The Outsiders](https://www.imdb.com/title/tt0086066)                 | 1h 31m     | Crime,Drama            |
+|   9 |   1984 |     |    6.5 | 19 K    | [The Cotton Club](https://www.imdb.com/title/tt0087089)               | 2h 9m      | Crime,Drama,Music      |
+|  10 |   1987 |     |    6.4 | 6 K     | [Gardens of Stone](https://www.imdb.com/title/tt0093073)              | 1h 51m     | Drama,Romance,War      |
+|  11 |   1988 |     |    6.9 | 22 K    | [Tucker: The Man and His Dream](https://www.imdb.com/title/tt0096316) | 1h 50m     | Biography,Comedy,Drama |
+|  12 |   1990 | ★   |    7.6 | 419 K   | [The Godfather Part III](https://www.imdb.com/title/tt0099674)        | 2h 42m     | Crime,Drama            |
+|  13 |   1992 | ★   |    7.4 | 235 K   | [Bram Stoker's Dracula](https://www.imdb.com/title/tt0103874)         | 2h 8m      | Drama,Fantasy,Horror   |
+|  14 |   1997 | ★   |    7.2 | 82 K    | [The Rainmaker](https://www.imdb.com/title/tt0119978)                 | 2h 15m     | Crime,Drama,Thriller   |
+|  15 |   2009 |     |    6.8 | 14 K    | [Tetro](https://www.imdb.com/title/tt0964185)                         | 2h 7m      | Drama                  |

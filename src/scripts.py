@@ -309,7 +309,7 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
         total_minutes = int(total_minutes)
         hours = total_minutes // 60
         minutes = total_minutes % 60
-        return f"{hours}h {minutes}m"
+        return f"{hours}h {minutes}m" if hours > 0 else f"{minutes}m"
 
     modified_df["total_minutes_formatted"] = modified_df["runtimeMinutes"].apply(
         format_minutes
