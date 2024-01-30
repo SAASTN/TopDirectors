@@ -5,6 +5,7 @@ Scripts used to generate the TopDirectors mark-down report based on IMDB databas
 import os
 import numpy as np
 import pandas as pd
+from tabulate import tabulate
 
 # The minimum number of votes a title must have in order to be considered for finding a director's average rating.
 minNumVotes = 5000
@@ -137,6 +138,8 @@ def get_high_voted_movies():
             "genres",
             "nconst",
             "primaryName",
+            "birthYear",
+            "deathYear",
         ]
     ].copy()
     high_voted_movies_df.rename(columns={"primaryName": "director"}, inplace=True)
@@ -191,13 +194,28 @@ def get_high_voted_directors():
     )
 
     # Step 2: Sort the DataFrame by mean average rating in descending order
-    sorted_df = grouped_df.sort_values("meanAverageRating", ascending=False)
+    sorted_df = grouped_df.sort_values(
+        ["meanAverageRating", "sumVotes"], ascending=False
+    )
 
     # Step 4: Keep only the 'director', 'meanAverageRating', and 'nconst' columns
     high_voted_directors_df = sorted_df.reset_index().merge(
-        high_voted_directors_top_movies_df[["director", "nconst"]].drop_duplicates(),
+        high_voted_directors_top_movies_df[
+            ["director", "nconst", "birthYear", "deathYear"]
+        ].drop_duplicates(),
         on="nconst",
-    )[["nconst", "director", "meanAverageRating", "sumVotes", "meanVotes", "minVotes"]]
+    )[
+        [
+            "nconst",
+            "director",
+            "meanAverageRating",
+            "sumVotes",
+            "meanVotes",
+            "minVotes",
+            "birthYear",
+            "deathYear",
+        ]
+    ]
 
     save_temp_file(
         high_voted_directors_top_movies_df, high_voted_directors_top_movies_file_name
@@ -219,12 +237,12 @@ def get_directors_all_movies(
     Returns:
         pd.DataFrame: A DataFrame containing all movies directed by the directors, along with their rating status.
 
-    The function first tries to read a temporary file named "highVotedDirectorsAllMovies". If this file exists, it returns its content.
+    The function first tries to read a temporary file named "HighVotedDirectorsAllMovies". If this file exists, it returns its content.
     If the file does not exist, it reads several data files ("title.basics", "title.crew", "title.ratings"), merges them with the input
     DataFrames, filters out non-movie titles, and adds a column indicating whether the movie is a top-rated movie.
     Finally, it saves the resulting DataFrame to a temporary file and returns it.
     """
-    file_name = "highVotedDirectorsAllMovies"
+    file_name = "HighVotedDirectorsAllMovies"
     df = try_read_temp_file(file_name)
     if df is not None:
         return df
@@ -255,6 +273,15 @@ def get_directors_all_movies(
     return directors_movies_df
 
 
+def format_num_votes(votes):
+    if votes < 1000:
+        return f"{votes/1000:.1f} K"
+    elif votes >= 1000 and votes < 1e6:
+        return f"{votes/1000:.0f} K"
+    else:
+        return f"{votes/1e6:.1f} M"
+
+
 def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
     """
     This function modifies the 'director_titles' DataFrame by formatting and merging certain columns, creating a new column, and reordering the columns.
@@ -276,16 +303,7 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
 
     modified_df[" "] = range(1, len(modified_df) + 1)
 
-    # Merge averageRating and numVotes columns
-    def format_kilos(value):
-        if value < 1000:
-            return f"{value/1000:.1f} K"
-        elif value >= 1000 and value < 1e6:
-            return f"{value/1000:.0f} K"
-        else:
-            return f"{value/1e6:.1f} M"
-
-    modified_df["numVotes"] = modified_df["numVotes"].apply(format_kilos)
+    modified_df["numVotes"] = modified_df["numVotes"].apply(format_num_votes)
     modified_df["isTopMovie"] = modified_df["isTopMovie"].map({True: "★", False: ""})
     # modified_df["averageRating"] = modified_df["averageRating"].astype(str)
 
@@ -314,7 +332,7 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
     modified_df["total_minutes_formatted"] = modified_df["runtimeMinutes"].apply(
         format_minutes
     )
-
+    modified_df["genres"] = modified_df["genres"].str.replace(",", ", ")
     # Reorder the columns
     modified = modified_df[
         [
@@ -344,17 +362,158 @@ def modify_director_titles(director_titles: pd.DataFrame) -> pd.DataFrame:
     return modified
 
 
-def generate_report(numDirectors, numTitles):
+def get_genres(df: pd.DataFrame) -> str:
+    # Join all row values to form a single string
+    genres_string = ",".join(df["genres"])
+
+    # Split the string by comma
+    genres_list = genres_string.split(",")
+
+    # Count the repetition of each value
+    genre_counts = {}
+    for genre in genres_list:
+        if genre in genre_counts:
+            genre_counts[genre] += 1
+        else:
+            genre_counts[genre] = 1
+
+    # Sort the genres by count
+    sorted_genres = sorted(genre_counts.items(), key=lambda x: x[1], reverse=True)
+
+    # Keep only the top 8 genres
+    top_genres = sorted_genres[:8]
+
+    # Calculate repetition percent for each genre
+    total_rows = len(df)
+    genre_percentages = [
+        (genre, count / total_rows * 100) for genre, count in top_genres
+    ]
+
+    # Form a comma-separated string containing values and their percent
+    result_string = ", ".join(
+        [f"{genre} ({percent:.0f}%)" for genre, percent in genre_percentages]
+    )
+
+    return result_string
+
+
+def get_director_section_details(
+    director_rank: int,
+    director_name: str,
+    director_id: str,
+    birth_year: str,
+    death_year: str,
+    director_titles: pd.DataFrame,
+) -> list[str]:
+    markdown_content = []
+    # Add a numbered section for the director
+    lifespan = f" ({birth_year}-{death_year})" if death_year is not None else ""
+    markdown_content.append(
+        f'## {director_rank}. [{director_name}{lifespan}](https://www.imdb.com/name/{director_id}) <a name="dir{director_rank}"></a>'
+    )
+    markdown_content.append("### • Overview  ")
+
+    def get_info(df: pd.DataFrame):
+        first_year = df["startYear"].min()
+        last_year = df["startYear"].max()
+        num_titles = len(df)
+        total_votes = df["numVotes"].sum()
+        mean_rating = df["averageRating"].mean()
+        genres = get_genres(df)
+        return first_year, last_year, num_titles, total_votes, mean_rating, genres
+
+    first_year, last_year, num_titles, total_votes, mean_rating, genres = get_info(
+        director_titles
+    )
+    top_movies = director_titles[director_titles["isTopMovie"] == True]
+    (
+        top_first_year,
+        top_last_year,
+        top_num_titles,
+        top_total_votes,
+        top_mean_rating,
+        top_genres,
+    ) = get_info(top_movies)
+
+    data = [
+        (
+            "Active&nbsp;Years",
+            f"{first_year}-{last_year}",
+            f"{top_first_year}-{top_last_year}",
+        ),
+        ("Num.&nbsp;Movies", num_titles, top_num_titles),
+        (
+            "Total&nbsp;Votes",
+            format_num_votes(total_votes),
+            format_num_votes(top_total_votes),
+        ),
+        (
+            "Mean&nbsp;Rating",
+            f"{mean_rating:.1f}",
+            f"**<ins>{top_mean_rating:.2f}</ins>**",
+        ),
+        ("Genres", genres, top_genres),
+    ]
+    data = [(f"**{x[0]}**", x[1], x[2]) for x in data]
+    markdown_content.append(
+        tabulate(data, headers=("", "All Movies", "Top Movies (★)"), tablefmt="pipe")
+    )
+    # print(markdown_table)
+    markdown_content.append("")
+    return markdown_content
+
+
+def get_director_section_titles(
+    director_titles: pd.DataFrame, num_titles: int
+) -> list[str]:
+    markdown_content = []
+    director_titles = director_titles.sort_values(
+        by="averageRating", ascending=False
+    ).head(num_titles)
+
+    # Sort director_titles by startYear
+    director_titles = director_titles.sort_values(by="startYear")
+
+    director_titles = modify_director_titles(director_titles)
+    markdown_content.append("### • Works  ")
+    # Add the table of director's titles
+    markdown_content.append(director_titles.to_markdown(index=False))
+    markdown_content.append("")
+    return markdown_content
+
+
+def get_director_section(
+    director_rank: int,
+    director_name: str,
+    director_id: str,
+    birth_year: str,
+    death_year: str,
+    director_titles: pd.DataFrame,
+    num_titles: int,
+) -> list[str]:
+    return get_director_section_details(
+        director_rank,
+        director_name,
+        director_id,
+        birth_year,
+        death_year,
+        director_titles,
+    ) + get_director_section_titles(director_titles, num_titles)
+
+
+def generate_report(num_directors, num_titles):
     directors_df, directors_top_movies_df = get_high_voted_directors()
     directors_all_movies_df = get_directors_all_movies(
         directors_df, directors_top_movies_df
     )
 
     # Sort directors_df by meanAverageRating in descending order
-    directors_df = directors_df.sort_values(by="meanAverageRating", ascending=False)
+    directors_df = directors_df.sort_values(
+        by=["meanAverageRating", "sumVotes"], ascending=False
+    )
 
     # Select numDirectors directors with highest meanAverageRating
-    directors_df = directors_df.head(numDirectors)
+    directors_df = directors_df.head(num_directors)
 
     # Create an empty list to store the markdown content
     markdown_content = []
@@ -364,31 +523,25 @@ def generate_report(numDirectors, numTitles):
         director_id = row["nconst"]
         director_name = row["director"]
         mean_rating = row["meanAverageRating"]
+        birth_year = row["birthYear"]
+        death_year = row["deathYear"]
+        director_rank = index + 1
         table_of_contents.append(
-            f"[{index+1}. {director_name} ({mean_rating:.2f})](#dir{index})  "
+            f"[{index+1}. {director_name} ({mean_rating:.2f})](#dir{director_rank})  "
         )
-        # Add a numbered section for the director
-        markdown_content.append(f'## <a name="dir{index}"></a>')
-        markdown_content.append(
-            f"## {index+1}. [{director_name}](https://www.imdb.com/name/{director_id})"
-        )
-        markdown_content.append("")
-
         # Filter selected_titles_df for the current director
         director_titles = directors_all_movies_df[
             directors_all_movies_df["nconst"] == director_id
         ]
-        director_titles = director_titles.sort_values(
-            by="averageRating", ascending=False
-        ).head(numTitles)
-
-        # Sort director_titles by startYear
-        director_titles = director_titles.sort_values(by="startYear")
-
-        director_titles = modify_director_titles(director_titles)
-        # Add the table of director's titles
-        markdown_content.append(director_titles.to_markdown(index=False))
-        markdown_content.append("")
+        markdown_content += get_director_section(
+            director_rank,
+            director_name,
+            director_id,
+            birth_year,
+            death_year,
+            director_titles,
+            num_titles,
+        )
 
     markdown_content = table_of_contents + markdown_content
 
